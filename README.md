@@ -105,11 +105,11 @@ A C/C++ tool for verifying the validity of logical proofs using a predefined set
 1. **Generate Documentation:**
    - Run Doxygen in the respective assignment directory to generate HTML documentation:
      ```sh
-     doxygen Documentation-I 
+     doxygen Documentation - I 
      ```
      and
      ```sh
-     doxygen Documentation-II
+     doxygen Documentation - II
      ```
            
 

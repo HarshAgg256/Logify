@@ -1,11 +1,9 @@
 # Logify
 A C/C++ based tool for constructing and evaluating parse trees of propositional logic formulas, including validation of logical proofs using predefined rules.
 
-# README
+## Logic in Computer Science
 
-## Logic in Computer Science Assignments
-
-This repository contains two assignments focused on propositional logic and proof validation in computer science. Both assignments are implemented in C/C++ and include tasks for constructing and evaluating parse trees and verifying logical proofs.
+This repository contains two projects focused on propositional logic and proof validation in computer science. Both projects are implemented in C/C++ and include tasks for constructing and evaluating parse trees and verifying logical proofs.
 
 ### Overview
 
@@ -15,7 +13,7 @@ Propositional logic, also known as propositional calculus or Boolean logic, is a
 **Proof Validation:**  
 Proof validation is the process of verifying whether a given sequence of logical statements constitutes a valid proof for a conclusion based on a set of premises and logical rules. This involves checking the correctness of each step in the proof and ensuring that the conclusion follows logically from the premises.
 
-### Assignment 1: Propositional Logic Parser and Evaluator
+### Project 1: Propositional Logic Parser and Evaluator
 
 **Description:**  
 A C/C++ tool for parsing and evaluating propositional logic formulas using structured logical rules.
@@ -39,7 +37,7 @@ A C/C++ tool for parsing and evaluating propositional logic formulas using struc
 6. **Algorithm Analysis:**  
    Analyzed the algorithms in terms of output, efficiency, and memory usage. Ensured the code is well-indented and commented, and documented the assignment as HTML pages.
 
-### Assignment 2: Proof Validation Tool
+### Project 2: Proof Validation Tool
 
 **Description:**  
 A C/C++ tool for verifying the validity of logical proofs using a predefined set of proof rules.
@@ -66,12 +64,9 @@ A C/C++ tool for verifying the validity of logical proofs using a predefined set
    Designed a system to read the number of statements and the corresponding logical formulas or proof rules from the input.
    
 2. **Proof Validation:**  
-   Developed a mechanism to verify whether a given proof is valid based on the provided rules. This involves checking each step of the proof to ensure it follows logically from the previous steps and the premises.
+   Developed a mechanism to verify whether a given proof is valid based on the provided rules. This involves checking each step of the proof to ensure it follows logically from the previous steps and the premises. Implemented functionality to print "Valid Proof" or "Invalid Proof" based on the validation results.
    
-3. **Output:**  
-   Implemented functionality to print "Valid Proof" or "Invalid Proof" based on the validation results.
-   
-4. **Documentation:**  
+3. **Documentation:**  
    Documented the code using Doxygen and provided detailed documentation of the algorithm, code design, example outputs, and future extension plans as HTML pages.
 
 ## Getting Started
@@ -85,11 +80,11 @@ A C/C++ tool for verifying the validity of logical proofs using a predefined set
 
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/yourusername/logic-assignments.git
-   cd logic-assignments
+   git clone https://github.com/HarshAgg256/Logify
+   cd Logify
    ```
 
-2. **Assignment 1:**
+2. **Project - 1:**
    - Navigate to the `Assignment1` directory.
    - Compile and run the code:
      ```sh

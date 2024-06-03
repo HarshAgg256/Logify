@@ -85,18 +85,18 @@ A C/C++ tool for verifying the validity of logical proofs using a predefined set
    ```
 
 2. **Project - 1:**
-   - Navigate to the `Assignment1` directory.
+   - Navigate to the `Logify` directory.
    - Compile and run the code:
      ```sh
-     g++ main.cpp -o logic_parser
+     g++ Propositional_Formula_Evaluation.cpp -o logic_parser
      ./logic_parser
      ```
 
-3. **Assignment 2:**
-   - Navigate to the `Assignment2` directory.
+3. **Project - 2:**
+   - Navigate to the `Logify` directory.
    - Compile and run the code:
      ```sh
-     g++ main.cpp -o proof_validator
+     g++ Natural_Deduction_Proof_Validity.cpp -o proof_validator
      ./proof_validator
      ```
 
@@ -105,8 +105,13 @@ A C/C++ tool for verifying the validity of logical proofs using a predefined set
 1. **Generate Documentation:**
    - Run Doxygen in the respective assignment directory to generate HTML documentation:
      ```sh
-     doxygen Doxyfile
+     doxygen Documentation-I 
      ```
+     and
+     ```sh
+     doxygen Documentation-II
+     ```
+           
 
 2. **View Documentation:**
    - Open the generated HTML files in a web browser to read the detailed documentation.

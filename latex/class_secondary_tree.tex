@@ -1,0 +1,242 @@
+\hypertarget{class_secondary_tree}{}\doxysection{Secondary\+Tree Class Reference}
+\label{class_secondary_tree}\index{SecondaryTree@{SecondaryTree}}
+
+
+class which defines the binary tree and envolves all functions which convert prefix expresion to binary tree  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_secondary_tree_a5146c10add9360d74bb8a5626b3719be}{Secondary\+Tree}} ()
+\item 
+void \mbox{\hyperlink{class_secondary_tree_a64e1fd02ba265e9a715f442019502654}{clear}} ()
+\begin{DoxyCompactList}\small\item\em function to clear the stack \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_secondary_tree_ae819f506de8e366f2525118c78e1533d}{push}} (\mbox{\hyperlink{class_make_tree}{Make\+Tree}} $\ast$ptr)
+\begin{DoxyCompactList}\small\item\em function to push the value in the stack \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_make_tree}{Make\+Tree}} $\ast$ \mbox{\hyperlink{class_secondary_tree_a955a32a18d8319917a2740ac2f7542db}{pop}} ()
+\begin{DoxyCompactList}\small\item\em function to pop out the uppermost value in the stack \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_make_tree}{Make\+Tree}} $\ast$ \mbox{\hyperlink{class_secondary_tree_a2bb1954e0ae429b41e3e8a4049bdc7e6}{seek}} ()
+\begin{DoxyCompactList}\small\item\em function to find the address of the root of tree \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_secondary_tree_a42ca9bf093766fa1ddd8a8fdfaf4f6c5}{insert}} (char val)
+\item 
+bool \mbox{\hyperlink{class_secondary_tree_a32afed97f854a07b61f5d20729dfa659}{if\+\_\+\+Digit}} (char ch)
+\begin{DoxyCompactList}\small\item\em function check if the cuurent alphabet is atom or not \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_secondary_tree_ad40258cca82a7b1c5376c6dba2939cd4}{if\+\_\+\+Operator}} (char ch)
+\begin{DoxyCompactList}\small\item\em function check if the cuurent alphabet is operator or not \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_secondary_tree_a786e0ae09c50a193bf247bbb60bfa01b}{to\+Digit}} (char ch)
+\begin{DoxyCompactList}\small\item\em function converts character to digits in ASCII values \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_secondary_tree_a68caa261ea87a5679a2a0351603a8043}{Form\+Tree}} (string eqn)
+\begin{DoxyCompactList}\small\item\em funtion runs a loop to to insert each alphabet sequencially as its properties into the binary tree \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_secondary_tree_a4c34072ba1f5cec8811985f173ee8b33}{infix}} ()
+\begin{DoxyCompactList}\small\item\em function calls other function which converts binary tree to infix \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_secondary_tree_a3c32e03d45526047cb435765b9d2d340}{in\+Order}} (\mbox{\hyperlink{class_make_tree}{Make\+Tree}} $\ast$ptr)
+\item 
+int \mbox{\hyperlink{class_secondary_tree_a28d0ea6b43ca9b88a2a70e2be1fa88c1}{Height\+\_\+\+Tree}} (\mbox{\hyperlink{class_make_tree}{Make\+Tree}} $\ast$node)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+class which defines the binary tree and envolves all functions which convert prefix expresion to binary tree 
+
+\hypertarget{class_secondary_tree_autotoc_md2}{}\doxyparagraph{variable}\label{class_secondary_tree_autotoc_md2}
+\mbox{\hyperlink{class_make_stack}{Make\+Stack}} $\ast$top stores address of topmost unit in the tree
+
+\mbox{\hyperlink{class_make_tree}{Make\+Tree}} $\ast$ptr usual pointer used to point a unit in the tree
+
+\mbox{\hyperlink{class_make_stack}{Make\+Stack}} $\ast$nptr usual pointer used to point a unit in the tree
+
+int l\+Depth length of thr left side of the tree
+
+int r\+Depth length of thr right side of the tree 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_secondary_tree_a5146c10add9360d74bb8a5626b3719be}\label{class_secondary_tree_a5146c10add9360d74bb8a5626b3719be}} 
+\index{SecondaryTree@{SecondaryTree}!SecondaryTree@{SecondaryTree}}
+\index{SecondaryTree@{SecondaryTree}!SecondaryTree@{SecondaryTree}}
+\doxysubsubsection{\texorpdfstring{SecondaryTree()}{SecondaryTree()}}
+{\footnotesize\ttfamily Secondary\+Tree\+::\+Secondary\+Tree (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_secondary_tree_a64e1fd02ba265e9a715f442019502654}\label{class_secondary_tree_a64e1fd02ba265e9a715f442019502654}} 
+\index{SecondaryTree@{SecondaryTree}!clear@{clear}}
+\index{clear@{clear}!SecondaryTree@{SecondaryTree}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void Secondary\+Tree\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function to clear the stack 
+
+\mbox{\Hypertarget{class_secondary_tree_a68caa261ea87a5679a2a0351603a8043}\label{class_secondary_tree_a68caa261ea87a5679a2a0351603a8043}} 
+\index{SecondaryTree@{SecondaryTree}!FormTree@{FormTree}}
+\index{FormTree@{FormTree}!SecondaryTree@{SecondaryTree}}
+\doxysubsubsection{\texorpdfstring{FormTree()}{FormTree()}}
+{\footnotesize\ttfamily void Secondary\+Tree\+::\+Form\+Tree (\begin{DoxyParamCaption}\item[{string}]{eqn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+funtion runs a loop to to insert each alphabet sequencially as its properties into the binary tree 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_secondary_tree_a42ca9bf093766fa1ddd8a8fdfaf4f6c5}{insert()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_secondary_tree_a28d0ea6b43ca9b88a2a70e2be1fa88c1}\label{class_secondary_tree_a28d0ea6b43ca9b88a2a70e2be1fa88c1}} 
+\index{SecondaryTree@{SecondaryTree}!Height\_Tree@{Height\_Tree}}
+\index{Height\_Tree@{Height\_Tree}!SecondaryTree@{SecondaryTree}}
+\doxysubsubsection{\texorpdfstring{Height\_Tree()}{Height\_Tree()}}
+{\footnotesize\ttfamily int Secondary\+Tree\+::\+Height\+\_\+\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_make_tree}{Make\+Tree}} $\ast$}]{node }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & which is the address of the root \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+height of the tree the function takes input as the root input then traverses in both directions with use of recursion to find the longest path and hence determines height og the tree 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_secondary_tree_a32afed97f854a07b61f5d20729dfa659}\label{class_secondary_tree_a32afed97f854a07b61f5d20729dfa659}} 
+\index{SecondaryTree@{SecondaryTree}!if\_Digit@{if\_Digit}}
+\index{if\_Digit@{if\_Digit}!SecondaryTree@{SecondaryTree}}
+\doxysubsubsection{\texorpdfstring{if\_Digit()}{if\_Digit()}}
+{\footnotesize\ttfamily bool Secondary\+Tree\+::if\+\_\+\+Digit (\begin{DoxyParamCaption}\item[{char}]{ch }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function check if the cuurent alphabet is atom or not 
+
+\begin{DoxyReturn}{Returns}
+boolean value 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+if\+\_\+operator(char ch) both have quite a same feature 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_secondary_tree_ad40258cca82a7b1c5376c6dba2939cd4}\label{class_secondary_tree_ad40258cca82a7b1c5376c6dba2939cd4}} 
+\index{SecondaryTree@{SecondaryTree}!if\_Operator@{if\_Operator}}
+\index{if\_Operator@{if\_Operator}!SecondaryTree@{SecondaryTree}}
+\doxysubsubsection{\texorpdfstring{if\_Operator()}{if\_Operator()}}
+{\footnotesize\ttfamily bool Secondary\+Tree\+::if\+\_\+\+Operator (\begin{DoxyParamCaption}\item[{char}]{ch }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function check if the cuurent alphabet is operator or not 
+
+\begin{DoxyReturn}{Returns}
+boolean value 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_secondary_tree_a32afed97f854a07b61f5d20729dfa659}{if\+\_\+\+Digit(char ch)}} both have quite a same feature 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_secondary_tree_a4c34072ba1f5cec8811985f173ee8b33}\label{class_secondary_tree_a4c34072ba1f5cec8811985f173ee8b33}} 
+\index{SecondaryTree@{SecondaryTree}!infix@{infix}}
+\index{infix@{infix}!SecondaryTree@{SecondaryTree}}
+\doxysubsubsection{\texorpdfstring{infix()}{infix()}}
+{\footnotesize\ttfamily void Secondary\+Tree\+::infix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function calls other function which converts binary tree to infix 
+
+\begin{DoxySeeAlso}{See also}
+inorder(\+Make\+Tree $\ast$ptr) 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_secondary_tree_a3c32e03d45526047cb435765b9d2d340}\label{class_secondary_tree_a3c32e03d45526047cb435765b9d2d340}} 
+\index{SecondaryTree@{SecondaryTree}!inOrder@{inOrder}}
+\index{inOrder@{inOrder}!SecondaryTree@{SecondaryTree}}
+\doxysubsubsection{\texorpdfstring{inOrder()}{inOrder()}}
+{\footnotesize\ttfamily void Secondary\+Tree\+::in\+Order (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_make_tree}{Make\+Tree}} $\ast$}]{ptr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em ptr} & function converts binary tree to infix by inorder transversal \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_secondary_tree_a4c34072ba1f5cec8811985f173ee8b33}{infix()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_secondary_tree_a42ca9bf093766fa1ddd8a8fdfaf4f6c5}\label{class_secondary_tree_a42ca9bf093766fa1ddd8a8fdfaf4f6c5}} 
+\index{SecondaryTree@{SecondaryTree}!insert@{insert}}
+\index{insert@{insert}!SecondaryTree@{SecondaryTree}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily void Secondary\+Tree\+::insert (\begin{DoxyParamCaption}\item[{char}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & its the bit by bit value in the given expression function checks if the the current alphabet is atom or operator and adds them in the tree like their respective properties else return Invalid Expression \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_secondary_tree_a68caa261ea87a5679a2a0351603a8043}{Form\+Tree()}} the function gets each string letter from the loop in \mbox{\hyperlink{class_secondary_tree_a68caa261ea87a5679a2a0351603a8043}{Form\+Tree}} function 
+
+\mbox{\hyperlink{class_secondary_tree_ae819f506de8e366f2525118c78e1533d}{push()}} 
+
+\mbox{\hyperlink{class_secondary_tree_a955a32a18d8319917a2740ac2f7542db}{pop()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_secondary_tree_a955a32a18d8319917a2740ac2f7542db}\label{class_secondary_tree_a955a32a18d8319917a2740ac2f7542db}} 
+\index{SecondaryTree@{SecondaryTree}!pop@{pop}}
+\index{pop@{pop}!SecondaryTree@{SecondaryTree}}
+\doxysubsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_make_tree}{Make\+Tree}} $\ast$ Secondary\+Tree\+::pop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function to pop out the uppermost value in the stack 
+
+\begin{DoxyReturn}{Returns}
+ptr which is the top most value in the stack cuurently checks if the stack is empty and if its empty prints underflow otherwise just pops out the topmost value and deletes it from stack 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_secondary_tree_ae819f506de8e366f2525118c78e1533d}{push()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_secondary_tree_ae819f506de8e366f2525118c78e1533d}\label{class_secondary_tree_ae819f506de8e366f2525118c78e1533d}} 
+\index{SecondaryTree@{SecondaryTree}!push@{push}}
+\index{push@{push}!SecondaryTree@{SecondaryTree}}
+\doxysubsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily void Secondary\+Tree\+::push (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_make_tree}{Make\+Tree}} $\ast$}]{ptr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function to push the value in the stack 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ptr} & which is address of the value which has to be added function checks if the top is null which means currently stack is empty and then adds the value otherwise just replaces top address with the new value address. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_secondary_tree_a955a32a18d8319917a2740ac2f7542db}{pop()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_secondary_tree_a2bb1954e0ae429b41e3e8a4049bdc7e6}\label{class_secondary_tree_a2bb1954e0ae429b41e3e8a4049bdc7e6}} 
+\index{SecondaryTree@{SecondaryTree}!seek@{seek}}
+\index{seek@{seek}!SecondaryTree@{SecondaryTree}}
+\doxysubsubsection{\texorpdfstring{seek()}{seek()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_make_tree}{Make\+Tree}} $\ast$ Secondary\+Tree\+::seek (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function to find the address of the root of tree 
+
+\begin{DoxyReturn}{Returns}
+address of the root 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_secondary_tree_a786e0ae09c50a193bf247bbb60bfa01b}\label{class_secondary_tree_a786e0ae09c50a193bf247bbb60bfa01b}} 
+\index{SecondaryTree@{SecondaryTree}!toDigit@{toDigit}}
+\index{toDigit@{toDigit}!SecondaryTree@{SecondaryTree}}
+\doxysubsubsection{\texorpdfstring{toDigit()}{toDigit()}}
+{\footnotesize\ttfamily int Secondary\+Tree\+::to\+Digit (\begin{DoxyParamCaption}\item[{char}]{ch }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function converts character to digits in ASCII values 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ch} & which is to converted to digit \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+digit value ~\newline
+ 
+\end{DoxyReturn}

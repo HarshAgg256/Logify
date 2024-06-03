@@ -1,0 +1,95 @@
+\hypertarget{classstack}{}\doxysection{stack Class Reference}
+\label{classstack}\index{stack@{stack}}
+
+
+Class Stack.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classstack_a65efc6bf4210228326d0a6a2813fd406}{stack}} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classstack_a1b860caf499b1da44e57048e1c287e14}{push}} (int a)
+\begin{DoxyCompactList}\small\item\em Push Function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classstack_afd6bf8357a2139cb5c2e03253d9caf96}{pop}} ()
+\begin{DoxyCompactList}\small\item\em Pop Function. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classstack_a5eeb2b88f0a9fb9e6138d38209062dab}{at\+The\+Top}} ()
+\begin{DoxyCompactList}\small\item\em at\+The\+Top Function \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classstack_adc343daa5cd8aaab473af868ab44302b}{is\+Empty}} ()
+\begin{DoxyCompactList}\small\item\em is\+Empty Function \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class Stack. 
+
+This class implements stack data structure using a 1-\/d array. \hypertarget{classstack_autotoc_md3}{}\doxysubsubsection{Variable}\label{classstack_autotoc_md3}
+int$\ast$ arr \+: It points to the array using which we\textquotesingle{}ll be implementing stack
+
+int top \+: It points to the top value of the stack. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classstack_a65efc6bf4210228326d0a6a2813fd406}\label{classstack_a65efc6bf4210228326d0a6a2813fd406}} 
+\index{stack@{stack}!stack@{stack}}
+\index{stack@{stack}!stack@{stack}}
+\doxysubsubsection{\texorpdfstring{stack()}{stack()}}
+{\footnotesize\ttfamily stack\+::stack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor. 
+
+It constructs an object of class stack with initialization of an array and giving default value -\/1 to the top pointer. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classstack_a5eeb2b88f0a9fb9e6138d38209062dab}\label{classstack_a5eeb2b88f0a9fb9e6138d38209062dab}} 
+\index{stack@{stack}!atTheTop@{atTheTop}}
+\index{atTheTop@{atTheTop}!stack@{stack}}
+\doxysubsubsection{\texorpdfstring{atTheTop()}{atTheTop()}}
+{\footnotesize\ttfamily int stack\+::at\+The\+Top (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+at\+The\+Top Function 
+
+This function is used to get the value present at the top of stack. It returns -\/1 when the stack is empty. \begin{DoxyReturn}{Returns}
+Stack\textquotesingle{}s top value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstack_adc343daa5cd8aaab473af868ab44302b}\label{classstack_adc343daa5cd8aaab473af868ab44302b}} 
+\index{stack@{stack}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!stack@{stack}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily bool stack\+::is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+is\+Empty Function 
+
+This function is used to check whether our stack is empty. \begin{DoxyReturn}{Returns}
+true if empty and false when atleast one element lies in the stack. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstack_afd6bf8357a2139cb5c2e03253d9caf96}\label{classstack_afd6bf8357a2139cb5c2e03253d9caf96}} 
+\index{stack@{stack}!pop@{pop}}
+\index{pop@{pop}!stack@{stack}}
+\doxysubsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily void stack\+::pop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Pop Function. 
+
+This function is used to remove the topmost value of the stack when called. It returns as it is when the stack is empty. \mbox{\Hypertarget{classstack_a1b860caf499b1da44e57048e1c287e14}\label{classstack_a1b860caf499b1da44e57048e1c287e14}} 
+\index{stack@{stack}!push@{push}}
+\index{push@{push}!stack@{stack}}
+\doxysubsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily void stack\+::push (\begin{DoxyParamCaption}\item[{int}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Push Function. 
+
+This function is used to push a value at the top of the stack when called. It returns as it is when the stack is full. 
+\begin{DoxyParams}{Parameters}
+{\em a} & The value required to be pushed. \\
+\hline
+\end{DoxyParams}
